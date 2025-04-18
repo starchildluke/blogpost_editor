@@ -1,6 +1,6 @@
 # blogpost_editor
 
-<img src="blogging-team-rocket-still.jpg" width="250" height="188" align="right" alt="Jessie, James, and Meowth from Team Rocket are on their laptops" loading="lazy">
+<img src="blogging-team-rocket-still.jpg" width="250" height="188" align="right" alt="Jessie, James, and Meowth from Team Rocket are on their laptops" loading="eager">
 
 > For when an IDE or Markdown editor doesn't quite cut it.
 
