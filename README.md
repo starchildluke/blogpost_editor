@@ -8,6 +8,10 @@ This is a [Marimo notebook](https://marimo.io/) that functions as a blog post ed
 
 It works best in app mode with a grid layout to mimic the UI of a minimalist post editor but you can follow the usual flow in edit mode too. I use [Astro](https://astro.build/) for my website so I built this to make blog editing more visual. It comes with a section to add my metadata and the body text, view a preview (which renders the Markdown), and when I click the "Post" button, it generates an MD file with all the correct Markdown (so far)
 
+## Preview
+
+![the app in all its glory with sections for adding metadata, body text, and a preview of what you've written](Screenshot%202025-04-18%20at%2009.39.00.png)
+
 ## Why did I make this
 
 After reading about [Vincent Warmerdam's cool blog post editor made with Flask](https://koaning.io/posts/a-flask-app-to-help-me-write-blogposts/), I tried it myself. But I soon realised that my version didn't work as well and I know nothing about Flask so rather than debug someone else's concept, I'd make my own. I use [Sublime Text](https://www.sublimetext.com/) normally but I've also tried [Obsidian](https://obsidian.md/) and other Markdown editors in the past. This was a nice idea because it gives more immediate feedback after I've written something rather than saving and switching to my browser (which doesn't always update immediately).
