@@ -1,14 +1,16 @@
 # blogpost_editor
 
+<img src="blogging-team-rocket-still.jpg" width="250" height="188" align="right" alt="Jessie, James, and Meowth from Team Rocket are on their laptops" loading="lazy">
+
 > For when an IDE or Markdown editor doesn't quite cut it.
 
-This is a Marimo notebook that functions as a blog post editor.
+This is a [Marimo notebook](https://marimo.io/) that functions as a blog post editor.
 
-It works best in app mode with a grid layout to mimic the UI of a minimalist post editor but you can follow the usual flow in edit mode too. I use Astro for my website so I built this to make blog editing more visual. It comes with a section to add my metadata and the body text, view a preview (which renders the Markdown), and when I click the "Post" button, it generates an MD file with all the correct Markdown (so far)
+It works best in app mode with a grid layout to mimic the UI of a minimalist post editor but you can follow the usual flow in edit mode too. I use [Astro](https://astro.build/) for my website so I built this to make blog editing more visual. It comes with a section to add my metadata and the body text, view a preview (which renders the Markdown), and when I click the "Post" button, it generates an MD file with all the correct Markdown (so far)
 
 ## Why did I make this
 
-After reading about Vincent Warmerdam's cool blog post editor made with Flask, I tried it myself. But I soon realised that my version didn't work as well and I know nothing about Flask so rather than debug someone else's concept, I'd make my own. I use Sublime Text normally but I've also tried Obsidian and other Markdown editors in the past. This was a nice idea because it gives more immediate feedback after I've written something rather than saving and switching to my browser (which doesn't always update immediately).
+After reading about [Vincent Warmerdam's cool blog post editor made with Flask](https://koaning.io/posts/a-flask-app-to-help-me-write-blogposts/), I tried it myself. But I soon realised that my version didn't work as well and I know nothing about Flask so rather than debug someone else's concept, I'd make my own. I use [Sublime Text](https://www.sublimetext.com/) normally but I've also tried [Obsidian](https://obsidian.md/) and other Markdown editors in the past. This was a nice idea because it gives more immediate feedback after I've written something rather than saving and switching to my browser (which doesn't always update immediately).
 
 ## Things I could do
 
