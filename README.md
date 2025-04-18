@@ -8,6 +8,12 @@ This is a [Marimo notebook](https://marimo.io/) that functions as a blog post ed
 
 It works best in app mode with a grid layout to mimic the UI of a minimalist post editor but you can follow the usual flow in edit mode too. I use [Astro](https://astro.build/) for my website so I built this to make blog editing more visual. It comes with a section to add my metadata and the body text, view a preview (which renders the Markdown), and when I click the "Post" button, it generates an MD file with all the correct Markdown (so far)
 
+## How to use
+
+```
+marimo edit blogpost_editor.py
+```
+
 ## Preview
 
 ![the app in all its glory with sections for adding metadata, body text, and a preview of what you've written](Screenshot%202025-04-18%20at%2009.39.00.png)
