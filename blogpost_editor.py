@@ -43,7 +43,7 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    body = mo.ui.text_area()
+    body = mo.ui.text_area(debounce=False)
 
     mo.vstack([
         mo.md('## Body text'),
